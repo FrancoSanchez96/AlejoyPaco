@@ -1,0 +1,42 @@
+@import '../base/mixin';
+
+/* TITLE H1 Y MENU NAVBAR */
+
+.NavBar-Container{
+    background-color: black;
+}
+.NavBar{
+    @include flexbox(center,center);
+}
+
+/* FIN TITLE H1 Y MENU NAVBAR */
+
+
+
+/* DESCRIPCION DEL SITIO */
+.Inicio{   
+
+    @include flexbox(center,center);
+    background-color: black;
+    padding-bottom: 13em;
+    padding-top: 13rem;
+
+}
+.Inicio-2{
+    @include flexbox(center,center);
+    flex-direction: column
+}
+
+
+.Text {
+    @include flexbox(center,center);
+    margin-right: 0rem;
+    text-align: start;
+    word-spacing: 3px;
+    line-height: 2em;
+    
+}
+
+
+
+/* Fin DESCRIPCION */

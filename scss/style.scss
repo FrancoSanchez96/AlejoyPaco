@@ -1,0 +1,23 @@
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/utilities';
+@import 'layout/mqueries';
+@import 'base/mixin';
+@import 'base/extend';
+
+
+
+
+/* INDEX */
+
+/* FONDO DE PAGINA E FONT */
+body {
+    background-color: black;
+    font-size: medium;
+    color: yellowgreen;
+    font-family: 'Roboto Mono', monospace;
+    
+ }
+
+
+/* FIN FONDO DE PAG Y FONT */

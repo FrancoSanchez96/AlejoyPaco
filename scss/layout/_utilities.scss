@@ -1,0 +1,99 @@
+@import '../base/mixin';
+@import '../base/extend';
+
+
+ /* ENLACES */
+
+ .link {
+    color: white;
+    text-decoration: solid;
+    padding: 4px;
+    text-align: center;
+}
+.link:hover {
+    background-color: wheat;
+    color: black;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    
+}
+
+/* FIN DE ENLACES */
+
+
+
+/* TITULOS */
+ 
+    
+
+.TitleUno {
+    @include title(10px ,start);
+    margin-right:42%;
+    padding: 1rem;
+
+    .TitleUno a {
+        text-decoration: none;
+        color: yellowgreen;
+      }
+        
+
+}
+.TitleUno-2{
+    @include title(10px ,start);
+    margin-right: 30%;
+}
+
+.TitleTres {
+    @include title(5px ,center)
+    
+}
+
+/* FIN DE TITULOS */
+/* IMG */
+.img-p2p{
+    @include img-wh(70%,90%);
+    border-radius: 2rem;
+
+}
+.img-market{
+    @include img-wh(30rem,30rem)
+}
+/* FIN DE IMG */
+/* ICONOS FIXED */
+
+
+/* BINANCE */
+.Button-Binance{
+    @include buton(yellowgreen,1rem);
+    @include transitions(all, 2s);
+    &:hover{@extend %hover-boton;
+        transform: translateX(-10px);
+    }
+}
+/* INSTAGRAM */
+.Button-Ig{
+    @include buton(olivedrab,5rem);
+    @include transitions(all, 2s);
+    &:hover {@extend %hover-boton;
+        transform: translateX(-10px)
+    }
+
+}
+/* TWITTER */
+.Button-Tw{
+    @include buton(cadetblue,9rem);
+    @include transitions(all, 2s);
+    &:hover{@extend %hover-boton;
+        transform: translateX(-10px)
+    }
+}
+/*FACEBOOK  */
+.Button-Fb{
+    @include buton(blue,13rem);
+    @include transitions(all, 2s);
+    &:hover{@extend %hover-boton;
+        transform: translateX(-10px)
+    }
+}
+
+/*FIN DE ICONOS FIXED */

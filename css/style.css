@@ -1,0 +1,331 @@
+/* transitions */
+/* IMG */
+/* TITLE H1 Y MENU NAVBAR */
+.NavBar-Container {
+  background-color: black;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FIN TITLE H1 Y MENU NAVBAR */
+/* DESCRIPCION DEL SITIO */
+.Inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 13em;
+  padding-top: 13rem;
+}
+
+.Inicio-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0rem;
+  text-align: start;
+  word-spacing: 3px;
+  line-height: 2em;
+}
+
+/* Fin DESCRIPCION */
+/* transitions */
+/* IMG */
+/* FOOTER  */
+/* CARRUSEL TUTORIAL */
+.carrusel-container {
+  padding: 2%;
+  margin-top: 15%;
+  border: 1px solid yellowgreen;
+  border-radius: 1rem;
+}
+
+/* FIN DE CARRUSEL TUTORIAL*/
+.Footer-Container {
+  background-color: black;
+  height: max-content;
+  height: 14rem;
+  margin-top: 10%;
+}
+.Footer-Container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  word-spacing: 2px;
+  line-height: 2rem;
+  opacity: 0.8;
+  font-size: small;
+}
+
+/* FIN DE FOOTER */
+/* transitions */
+/* IMG */
+.Button-Fb:hover, .Button-Tw:hover, .Button-Ig:hover, .Button-Binance:hover {
+  text-decoration: none;
+  background-color: white;
+}
+
+/* ENLACES */
+.link {
+  color: white;
+  text-decoration: solid;
+  padding: 4px;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: wheat;
+  color: black;
+  padding: 0.6rem;
+  border-radius: 1rem;
+}
+
+/* FIN DE ENLACES */
+/* TITULOS */
+.TitleUno {
+  background-color: black;
+  word-spacing: 10px;
+  text-align: start;
+  margin-right: 42%;
+  padding: 1rem;
+}
+.TitleUno .TitleUno a {
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.TitleUno-2 {
+  background-color: black;
+  word-spacing: 10px;
+  text-align: start;
+  margin-right: 30%;
+}
+
+.TitleTres {
+  background-color: black;
+  word-spacing: 5px;
+  text-align: center;
+}
+
+/* FIN DE TITULOS */
+/* IMG */
+.img-p2p {
+  width: 70%;
+  height: 90%;
+  border-radius: 2rem;
+}
+
+.img-market {
+  width: 30rem;
+  height: 30rem;
+}
+
+/* FIN DE IMG */
+/* ICONOS FIXED */
+/* BINANCE */
+.Button-Binance {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  right: 1rem;
+  background-color: yellowgreen;
+  bottom: 1rem;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.Button-Binance:hover {
+  transform: translateX(-10px);
+}
+
+/* INSTAGRAM */
+.Button-Ig {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  right: 1rem;
+  background-color: olivedrab;
+  bottom: 5rem;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.Button-Ig:hover {
+  transform: translateX(-10px);
+}
+
+/* TWITTER */
+.Button-Tw {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  right: 1rem;
+  background-color: cadetblue;
+  bottom: 9rem;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.Button-Tw:hover {
+  transform: translateX(-10px);
+}
+
+/*FACEBOOK  */
+.Button-Fb {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  right: 1rem;
+  background-color: blue;
+  bottom: 13rem;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.Button-Fb:hover {
+  transform: translateX(-10px);
+}
+
+/*FIN DE ICONOS FIXED */
+/* transitions */
+/* IMG */
+/* MEDIA QUERIES */
+/* TABLET */
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+  /* MENU INICIO TABLET */
+  .Inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .Text {
+    text-align: center;
+  }
+
+  .img-p2p {
+    padding-left: 10rem;
+  }
+
+  .img-market {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .TitleUno {
+    background-color: black;
+    word-spacing: 10px;
+    text-align: start;
+    margin-right: 1%;
+    padding: 1rem;
+  }
+
+  .link:hover {
+    background-color: inherit;
+    color: white;
+  }
+
+  /* FIN DE MENU INICIO TABLET */
+  /* FOOTER TABLET */
+  .Footer-Container {
+    display: grid;
+    margin: 1px solid black;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+
+  /* FIN DE FOOTER TABLET */
+}
+/* MOBIL */
+@media only screen and (max-device-width: 640px) {
+  /* MENU INICIO MOVIL */
+  .Inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-top: 1rem;
+  }
+
+  .Text {
+    text-align: center;
+  }
+
+  .img-p2p {
+    display: none;
+  }
+
+  .img-market {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .TitleUno {
+    background-color: black;
+    word-spacing: 10px;
+    text-align: start;
+    margin-right: 1%;
+    padding: 1rem;
+  }
+
+  .link:hover {
+    background-color: inherit;
+    color: white;
+  }
+
+  /* FIN MENU INICIO MOBIL */
+  /* FOOTER MOBIL */
+  .Footer-Container {
+    display: grid;
+    background-color: black;
+    margin: 1px solid black;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+
+  /* Iconos movil */
+  .Icon-Social {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* FIN DE FOOTER MOBIL */
+}
+/* transitions */
+/* IMG */
+.Button-Binance:hover, .Button-Ig:hover, .Button-Tw:hover, .Button-Fb:hover {
+  text-decoration: none;
+  background-color: white;
+}
+
+/* INDEX */
+/* FONDO DE PAGINA E FONT */
+body {
+  background-color: black;
+  font-size: medium;
+  color: yellowgreen;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* FIN FONDO DE PAG Y FONT */
+
+/*# sourceMappingURL=style.css.map */

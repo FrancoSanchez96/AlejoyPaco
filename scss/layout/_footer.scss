@@ -1,0 +1,37 @@
+@import '../base/mixin';
+/* FOOTER  */
+
+/* CARRUSEL TUTORIAL */
+
+.carrusel-container{
+   padding: 2%;
+    margin-top: 15%;
+    border: 1px solid yellowgreen;
+    border-radius: 1rem;
+
+}
+
+/* FIN DE CARRUSEL TUTORIAL*/
+    
+
+
+
+
+.Footer-Container {
+    
+    background-color: black;
+    height: max-content;
+    height: 14rem;
+    margin-top: 10%;
+    div{
+    @include flexbox(center,space-around);
+    flex-direction: column;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 2rem;
+    opacity: 0.8;
+    font-size: small;
+    }
+}
+
+/* FIN DE FOOTER */

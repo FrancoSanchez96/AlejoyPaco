@@ -1,0 +1,44 @@
+//* utilities *//
+
+
+//* titles *//
+@mixin title($spacing, $text-align){
+
+    background-color: black;
+    word-spacing: $spacing;
+    text-align: $text-align;
+}
+
+//* buttons *//
+@mixin buton($color,$botom) {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    right: 1rem;
+    background-color:$color ;
+    bottom: $botom;
+}
+
+//* fin de utilites*//
+
+//* flexbox *//
+@mixin flexbox($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    
+}
+/* transitions */
+
+@mixin transitions($property, $duration){
+    transition-property: $property;
+    transition-duration: $duration;
+}
+/* IMG */
+
+@mixin img-wh($width, $heigth){
+    width: $width;
+    height: $heigth;
+    
+}
